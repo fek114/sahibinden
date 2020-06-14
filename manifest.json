@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Sahibinden Yorumları",
+  "version": "1.0",
+  "permissions": ["activeTab", "declarativeContent", "storage", "tabs"],
+
+  "default_locale": "tr",
+  "description": "Yorum ekleyin ve okuyun",
+
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "sahibinden.html"
+  }
+}
